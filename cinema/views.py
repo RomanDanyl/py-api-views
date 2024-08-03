@@ -71,8 +71,8 @@ class ActorDetail(generics.RetrieveUpdateDestroyAPIView):
 class CinemaHallViewSet(
     viewsets.GenericViewSet,
     mixins.ListModelMixin,
-    mixins.CreateModelMixin,
     mixins.RetrieveModelMixin,
+    mixins.CreateModelMixin,
     mixins.UpdateModelMixin,
     mixins.DestroyModelMixin,
 ):
